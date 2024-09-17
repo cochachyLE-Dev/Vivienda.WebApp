@@ -5,13 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Vivienda.WebApp.FrontOffice", "FrontOffice\Vivienda.WebApp.FrontOffice\Vivienda.WebApp.FrontOffice.esproj", "{80A29669-28BF-4294-96C4-DA66DBAB4593}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivienda.WebApp.FrontOffice.BFF", "FrontOffice\Vivienda.WebApp.FrontOffice.Server\Vivienda.WebApp.FrontOffice.BFF.csproj", "{05E1B3D2-B46C-4200-B0D7-9EE349BF9490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivienda.WebApp.FrontOffice.BFF", "FrontOffice\Vivienda.WebApp.FrontOffice.BFF.API\Vivienda.WebApp.FrontOffice.BFF.API.csproj", "{05E1B3D2-B46C-4200-B0D7-9EE349BF9490}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivienda.WebApp.FrontOffice.Test.Integration", "FrontOffice\Vivienda.WebApp.FrontOffice.Test.Integration\Vivienda.WebApp.FrontOffice.Test.Integration.csproj", "{12796AE6-58FD-4D15-9256-390FB5811BF9}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Vivienda.WebApp.BackOffice", "BackOffice\Vivienda.WebApp.BackOffice\Vivienda.WebApp.BackOffice.esproj", "{8B0321A8-14E6-402B-9860-DAA1862EBA93}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivienda.WebApp.BackOffice.BFF", "BackOffice\Vivienda.WebApp.BackOffice.Server\Vivienda.WebApp.BackOffice.BFF.csproj", "{58B85337-924C-43B2-A10A-FCBD4D161B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivienda.WebApp.BackOffice.BFF", "BackOffice\Vivienda.WebApp.BackOffice.BFF.API\Vivienda.WebApp.BackOffice.BFF.API.csproj", "{58B85337-924C-43B2-A10A-FCBD4D161B97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1C1446F3-1A8A-498C-98B3-16235A8453F3}"
 EndProject
