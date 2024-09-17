@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.128-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <PublishAssetsDirectory>$(MSBuildProjectDirectory)\dist\Vivienda.WebApp.Office\</PublishAssetsDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\account\auth\" />
+    <Folder Include="src\app\account\register\" />
+    <Folder Include="src\app\pages\property-rental\" />
+    <Folder Include="src\app\pages\property-purchase\" />
+    <Folder Include="src\app\pages\property-sale\" />
+    <Folder Include="src\app\pages\property-sale-offer\" />
+    <Folder Include="src\app\pages\subscription-plan\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="src\app\core\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\app\core\NewFolder\**" />
+  </ItemGroup>
+</Project>
